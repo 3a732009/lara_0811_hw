@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <h1>關於本站</h1>;
+
         <title>關於本站</title>
 
         <!-- Fonts -->
@@ -37,6 +37,9 @@
                 </div>
             @endif
 
+                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="p-6">
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
@@ -45,7 +48,12 @@
                         </g>
                     </svg>
                 </div>
-
+                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+                    <ul>
+                        <li><a href ={{route('home.index')}}><font color="#000000">首頁</font></a></li>
+                        <li><a href ={{route('news.index')}}><font color="#000000">最新消息</font></a></li>
+                    </ul>
+                </div>
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <h1>最新消息</h1>;
+
         <title>最新消息</title>
 
         <!-- Fonts -->
@@ -34,6 +34,7 @@
                         @endif
                     @endif
                 </div>
+
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -44,7 +45,12 @@
                         </g>
                     </svg>
                 </div>
-
+                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+                    <ul>
+                        <li><a href ={{route('about.index')}}><font color="#000000">關於</font></a></li>
+                        <li><a href ={{route('home.index')}}><font color="#000000">首頁</font></a></li>
+                    </ul>
+                </div>
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
